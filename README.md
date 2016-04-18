@@ -5,10 +5,10 @@ Best source -> https://github.com/bsikander/getting-a-gig
 # Linked List:
 - Data structure to hold data of any type and size
   **Advantages:**
-  - Insertion in O(1) <-- [Good implementations will always keep the pointer to the last node](http://stackoverflow.com/questions/1933085/linked-list-insertion-running-time-confusion)
+  - Insertion in O(1). Insertion consists of two functions Find + insert. Insert is always O(1) but find always makes the difference. If we have the pointer then find is O(1) otherwise find will be O(n) which makes the overall time of insert to be O(n). <-- [Good implementations will always keep the pointer to the last node](http://stackoverflow.com/questions/1933085/linked-list-insertion-running-time-confusion)
   - Access is O(n)
   - 
-  **Disadvantages*:*
+  **Disadvantages**
   - Memory waste for extra pointers
   
   
