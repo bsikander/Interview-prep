@@ -19,3 +19,5 @@ Best source -> https://github.com/bsikander/getting-a-gig
 "Constant time" has the same meaning as "O(1)", which doesn't mean that an algorithm runs in a fixed amount of time,
 it just means that it isn't proportional to the length/size/magnitude of the input. i.e., for any input, it can be computed 
 in the same amount of time (even if that amount of time is really long).
+
+[Linear + Constant Time]([https://www.quora.com/Difference-between-linear-time-and-constant-time-in-Data-structure)
