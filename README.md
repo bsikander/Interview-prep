@@ -6,6 +6,10 @@ Best source -> https://github.com/bsikander/getting-a-gig
 - Data structure to hold data of any type and size
   **Advantages:**
   - Insertion in O(1) <-- [Good implementations will always keep the pointer to the last node](http://stackoverflow.com/questions/1933085/linked-list-insertion-running-time-confusion)
+  - Access is O(n)
+  - 
+  **Disadvantages*:*
+  - Memory waste for extra pointers
   
   
   
